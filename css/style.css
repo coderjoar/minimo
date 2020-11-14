@@ -147,14 +147,17 @@ section{
 
 
 .content{
-      width: 45%;
+      width: 47%;
     /* border: 1px solid blue; */
     float: left;
-    padding-right: 1%;
-    margin: 0 1%;
     margin-top: 100px;
    margin-bottom: 100px
 
+}
+
+.content:nth-child(even){
+	margin-left: 6%;
+	/*border: 1px solid red;*/
 }
 .content img{
 	width: 100%;
@@ -174,6 +177,8 @@ section{
 .content p{
 	font-weight: 400;
 }
+
+
    
 
 
@@ -252,33 +257,35 @@ section{
 /*load start*/
 
 .b_box{
-	width: 100px;
-	/*border: 1px solid red;*/
-	margin: 0 auto;
+	text-align: center;
 	
 }
 .b_box button{
 
-	margin-left: -50px;
 	margin-bottom: 200px;
 	margin-top: 100px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
-	font-size: 14px;
-	width: 150px;
-	height: 50px;
-	background: transparent;
-	/*border: none;*/
+	font-size: 16px;
+	color: #626262;
+	width: 165px;
+	height: 60px;
 	transition: 0.3s;
+	background-color: white;
+	cursor: pointer;
 
 }
 
 .b_box button:hover{
-	background: #626262;
+	background-color: #626262;
+	color: white;
 
 }
 
 /*load end*/
+
+
+
 /*fotter start*/
 .footer{
 	background: #f0f0f0;
@@ -308,6 +315,7 @@ section{
     position: absolute;
     right: 80px;
     top: 50px;
+    cursor: pointer;
 }
 
 
